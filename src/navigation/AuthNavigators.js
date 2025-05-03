@@ -6,7 +6,7 @@ import {Routes} from "./Routes";
 import RestaurantMapsScreen from "../screens/RestaurantMapsScreen";
 import DrawerNavigation from "./DrawerNavigation";
 
-const AuthStack = createStackNavigator()
+const AuthStack = createStackNavigator();
 
 export default function AuthNavigators(){
     return (

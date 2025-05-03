@@ -8,7 +8,7 @@ const Drawer = createDrawerNavigator()
 
 export default function DrawerNavigation(){
     return (
-        <Drawer.Navigator drawerContent={props=><NavigationDrawerContent {...props} />}>
+        <Drawer.Navigator screenOptions={{headerShown:false}} drawerContent={props=><NavigationDrawerContent {...props} />}>
             <Drawer.Screen name={'clientTabs'} component={ClientTabs} options={{
                 headerShown:false,
                 title:'Client',
